@@ -1,8 +1,25 @@
+import javafx.application.Application;
+import javafx.stage.Stage;
 
-public class Bootstrap {
+/**
+ * Bootstrap simple javafx application
+ */
+public class Bootstrap extends Application {
 
+  /**
+   * Launch the javafx application
+   * @param String[] args cli arguments
+   */
   public static void main(String[] args) {
-    System.out.print("Hello world!");
+    launch(args);
+  }
+
+  /**
+   * Put your application code here
+   * @param Stage stage
+   */
+  public void start(Stage stage) {
+    stage.show();
   }
 
 }
