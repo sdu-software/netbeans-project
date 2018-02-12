@@ -1,7 +1,7 @@
 # NetBeans Project
 
 This repo is a boilerplate NetBeans project, you can fork this to get started
-on your projects.
+on your own projects.
 
 ## Get started
 
