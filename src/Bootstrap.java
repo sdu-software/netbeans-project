@@ -1,5 +1,6 @@
 import javafx.application.Application;
 import javafx.stage.Stage;
+import gui.Layout;
 
 /**
  * Bootstrap simple javafx application
@@ -19,7 +20,7 @@ public class Bootstrap extends Application {
    * @param Stage stage
    */
   public void start(Stage stage) {
-    stage.show();
+    new Layout(stage);
   }
 
 }
