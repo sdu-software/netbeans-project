@@ -16,7 +16,7 @@ public class Bootstrap extends Application {
   }
 
   /**
-   * Put your application code here
+   * Put your glue code here.
    * @param Stage stage
    */
   public void start(Stage stage) {
