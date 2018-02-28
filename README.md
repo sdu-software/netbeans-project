@@ -1,4 +1,4 @@
-# NetBeans Project
+# NetBeans Template
 
 This repo is a boilerplate NetBeans project, you can fork this to get started
 on your own projects.
@@ -7,7 +7,7 @@ on your own projects.
 
 Clone this repository to a local directory.
 ```sh
-git clone https://github.com/sdu-software/netbeans-project
+git clone https://github.com/sdu-software/netbeans-template
 ```
 Open the cloned repository in your NetBeans IDE and everything should be
 working out of the box.
