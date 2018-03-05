@@ -9,7 +9,7 @@ public class Bootstrap extends Application {
 
   /**
    * Launch the javafx application
-   * @param String[] args cli arguments
+   * @param args cli arguments
    */
   public static void main(String[] args) {
     launch(args);
@@ -17,7 +17,7 @@ public class Bootstrap extends Application {
 
   /**
    * Put your glue code here.
-   * @param Stage stage
+   * @param stage
    */
   public void start(Stage stage) {
     new Layout(stage);

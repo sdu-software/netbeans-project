@@ -10,7 +10,7 @@ public class Layout {
 
   /**
    * Create a new instance of Layout
-   * @param Stage stage
+   * @param stage
    */
   public Layout(Stage stage) {
     FXMLLoader loader = new FXMLLoader(getClass().getResource("Layout.fxml"));
@@ -28,8 +28,8 @@ public class Layout {
 
   /**
    * Create the main scene
-   * @param Stage  stage
-   * @param Parent root
+   * @param stage
+   * @param root
    */
   private void createMainScene(Stage stage, Parent view) {
     Scene scene = new Scene(view);
